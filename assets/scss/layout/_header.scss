@@ -1,4 +1,13 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.navbar-brand img {
+  width: 200px;
+  height: 32px;
+
+  @include pad {
+    width: 125px;
+    height: 20px;
+  }
+}
+
+.input-group-search {
+  width: 425px;
 }
